@@ -392,7 +392,8 @@ def sum_random(x):
     x = x +1
   
     for value in range(1,x):
-        #ran = random.randint(1,100) 
+        #ran = random.randint(1,100)
+        # Test rand on vaules
         sum = sum + random.randint(1,100)
         #print('value' + str(value) + ': '  + str(ran))       
     return sum
