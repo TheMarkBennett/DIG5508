@@ -1,11 +1,13 @@
 
 ##This files detemines if a number is even or odd
 #%%
-def sentence(value):
-    if 'football' in value:
-        return "Working"
+
+def to_min(seconds):
+    if(seconds < 60 ):
+        return "This is under a minute"
     else:
-        return "Not working"
+        return (seconds / 60)
+    
     
 
 #%%
