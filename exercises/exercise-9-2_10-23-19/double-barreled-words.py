@@ -25,7 +25,8 @@ leave = source2.read()
 
 import re
 
-result = re.findall(r'[\w]+-[\w]+', leave)
-len(result)
-
+presult = re.findall(r'\w*-\w*', pride)
+len(presult)
+lresult = re.findall(r'\w*-\w*', leave)
+len(lresult)
 #%%
