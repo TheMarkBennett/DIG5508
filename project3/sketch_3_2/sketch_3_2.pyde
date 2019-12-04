@@ -81,7 +81,7 @@ class ShapeShifter(object):
         self.c = c
         self.xpos = xpos
         self.ypos = ypos
-    self.xspeed = xspeed
+        self.xspeed = xspeed
         
     def display(self):
         stroke(0)
